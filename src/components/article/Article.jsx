@@ -4,7 +4,7 @@ import Heading from './Heading'
 
 const Article = () => {
   return (
-    <div>
+    <div className='lg:mx-[50px]'>
         <Heading />
         <Posts />
     </div>

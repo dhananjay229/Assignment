@@ -41,8 +41,7 @@ export default function Header() {
   }
 
   return (
-    <div className=" body-width dark:bg-zinc-900 w-full z-20 flex flex-col  items-center lg:mx-[50px]"
-    >
+    <div className=" body-width dark:bg-zinc-900 w-full flex flex-col  items-center lg:mx-[50px]" >
       <div className=" w-1/2 pb-2 mt-2 flex flex-row items-center justify-center ml-24 self-end md:self-center">
       <div className="border shadow-sm px-8 my-4 mx-4 rounded-full hidden md:flex flex-row justify-evenly items-center text-slate-800 dark:bg-zinc-800  dark:border-zinc-600">
         {menuLinks.map(i => (
@@ -63,8 +62,7 @@ export default function Header() {
         </div>
       </button>
       </div>
-      </div>
-      
+      </div>      
     </div>
     
 

@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    transition: background-color 200ms
+@media (min-width: 640px) {
+  .body-width {
+    width: calc(100% - 12vw)
   }
+}
+

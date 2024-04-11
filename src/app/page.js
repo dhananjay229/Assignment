@@ -1,5 +1,3 @@
-
-
 import HomePage from "@/pages/home";
 import Image from "next/image";
 

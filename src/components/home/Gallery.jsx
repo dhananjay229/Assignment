@@ -3,28 +3,28 @@ import Image from "next/image"
 export const imageSlider = [
     {
       id: "0",
-      src: "/public/image-1.webp",
-      rotation: "rotate-2"
+      src: "/image-1.webp",
+      rotation: "rotate-3"
     },
     {
       id: "1",
-      src: "/public/image-1.webp",
+      src: "/image-2.webp",
       rotation: "rotate-left"
     },
     {
       id: "2",
-      src: "/public/image-1.webp",
-      rotation: "rotate-2"
+      src: "/image-3.webp",
+      rotation: "rotate-3"
     },
     {
       id: "3",
-      src: "/public/image-1.webp",
+      src: "/image-4.webp",
       rotation: "rotate-left"
     },
     {
       id: "4",
-      src: "/public/image-1.webp",
-      rotation: "rotate-2"
+      src: "/image-5.webp",
+      rotation: "rotate-3"
     },
   ]
   

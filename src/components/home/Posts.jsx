@@ -25,7 +25,7 @@ export const post = [
 
 export default function Posts() {
   return (
-    <div className="lg:w-3/4 my-8 mx-8 ">
+    <div className="lg:w-3/4 my-8 ">
       {post.map(item => (
         <div key={item.key}>
           <PostView post={item} />

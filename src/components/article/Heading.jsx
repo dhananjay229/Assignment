@@ -6,7 +6,7 @@ const Heading = () => {
     <h1 className="dark:text-zinc-100 text-5xl font-bold text-zinc-800">
     Writing on software design, company building, and the aerospace industry.
     </h1>
-    <p className="py-8 " data-testid="hero-blurb">
+    <p className="py-8 ">
     All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order.</p>
   </div>
   )

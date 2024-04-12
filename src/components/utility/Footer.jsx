@@ -29,7 +29,7 @@ export default function Footer() {
     <div className="w-screen body-width text-lg flex lg:flex-row flex-col justify-evenly items-center h-32  border-t bg-white dark:bg-zinc-900 dark:border-zinc-700" >
       <div className=" flex flex-wrap justify-center gap-x-6 gap-y-1">
         {footerLinks.map(i => (
-          <Link className="dark:hover:text-emerald-500 p-1 dark:text-zinc-300" href={i.link} key={i.id} data-testid={i.id}>
+          <Link className="dark:hover:text-emerald-500 p-1 dark:text-zinc-300" href={i.link} key={i.id}>
             {i.title}
           </Link>
         ))}

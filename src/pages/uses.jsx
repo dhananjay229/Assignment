@@ -1,15 +1,14 @@
-import Index from '@/components/project/Index'
+import Index from '@/components/uses'
 import Layout from '@/components/utility/Layout'
 import React from 'react'
 import '@/app/globals.css';
 
-
-const projects = () => {
+const uses = () => {
   return (
     <Layout>
-      <Index />
+        <Index />
     </Layout>
   )
 }
 
-export default projects
+export default uses

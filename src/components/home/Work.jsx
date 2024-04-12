@@ -41,11 +41,11 @@ export default function Work() {
       <div>
         {workListItem.map(i => (
           <div key={i.id}>
-            <WorkList company={i.company} position={i.position} years={i.years}/>
+            <WorkList company={i.company} position={i.position} years={i.years} />
           </div>
         ))}
       </div>
-      <Link className="rounded bg-slate-50 hover:bg-slate-100 text-center p-2 m-4 text-sm dark:bg-zinc-800 dark:hover:bg-zinc-700 dark:text-zinc-200" href="/about" data-testid="cv-link">
+      <Link className="rounded bg-slate-50 hover:bg-slate-100 text-center p-2 m-4 text-sm dark:bg-zinc-800 dark:hover:bg-zinc-700 dark:text-zinc-200" href="/about">
         Download CV
       </Link>
     </div>

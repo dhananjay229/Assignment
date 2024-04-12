@@ -56,7 +56,7 @@ export default function Header() {
         </div>
         <div className=" flex flex-row ml-2">
           <button
-            className=" hover:bg-slate-100 border shadow-sm rounded-full lg:text-xl h-10 lg:px-4 lg:mx-2 px-2 dark:hover:bg-zinc-800 dark:text-white dark:ring-white dark:hover:ring-white dark:border-zinc-600"
+            className=" hover:bg-slate-100 border shadow-sm rounded-full lg:text-xl h-10 lg:px-4 lg:mx-2 px-2 dark:hover:bg-zinc-800 dark:text-teal-400 dark:ring-white dark:hover:ring-white dark:border-zinc-600"
             onClick={() => handleToggle()}
           >
             <div className="hidden dark:flex">

@@ -1,5 +1,5 @@
 import React from 'react'
-import About from '@/components/about/about'
+import About from '@/components/about/About'
 import Header from '@/components/utility/Header'
 import Layout from '@/components/utility/Layout'
 import '@/app/globals.css';

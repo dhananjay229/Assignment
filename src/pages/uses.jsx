@@ -1,4 +1,4 @@
-import Index from '@/components/uses'
+import Index from '@/components/uses/Uses'
 import Layout from '@/components/utility/Layout'
 import React from 'react'
 import '@/app/globals.css';

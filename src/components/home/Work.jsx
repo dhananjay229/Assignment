@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { MdWorkOutline } from "react-icons/md"
-import WorkList from "./workList"
+import WorkList from "./WorkList"
 
 export const workListItem = [
   {

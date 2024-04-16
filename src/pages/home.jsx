@@ -6,9 +6,15 @@ import Work from '@/components/home/Work'
 // import Footer from '@/components/utility/Footer'
 // import Header from '@/components/utility/Header'
 import Layout from '@/components/utility/Layout'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const HomePage = () => {
+
+    useEffect(() => {
+        if (localStorage.theme === "dark"){
+          document.documentElement.classList.add('dark')
+        }
+      }, [])
     return (
         <>
             <Layout>

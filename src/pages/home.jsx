@@ -1,3 +1,4 @@
+"use client";
 import Gallery from '@/components/home/Gallery'
 import HeroSection from '@/components/home/HeroSection'
 import Posts from '@/components/home/Posts'
